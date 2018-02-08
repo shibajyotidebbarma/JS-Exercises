@@ -389,6 +389,8 @@
 //
 //
 //console.log(fs);
+//////////////////////////////////////////////////////////////////////
+
 
 
 
@@ -421,6 +423,8 @@
 //greetEnglish('Balle', 'Challe');
 //greetSpanish('Sen', 'Gen');
 /////////////////////////////////////////////////////////
+
+
 
 
 
@@ -486,7 +490,95 @@
 //});
 
 
-////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+
+
+
+//Call(), Apply(), Bind() Function Methods(this)
+
+
+
+//
+//var person ={
+//    
+//    firstName:'John',
+//    lastName:'Doe',
+//    getFullName : function(){
+//    
+//    var fullName = this.firstName + ' ' + this.lastName;
+//    return fullName;
+//    
+//}
+//    
+//};
+//
+//
+//
+//
+//var logName = function(lang1, lang2){
+//    
+//    
+//    console.log('Logged: '+this.getFullName());
+//    console.log('Arguments: '+' '+lang1+' '+lang2);
+//    console.log('--------------------------------')
+//};
+//
+//var logPersonName = logName.bind(person);
+//logPersonName('en', 'es');
+//
+//
+//
+//
+//logName.call(person, 'en', 'es');
+//
+//
+//logName.apply(person, ['en', 'es']);
+//
+//
+//
+//
+//
+//(function(lang1, lang2){
+//    
+//    //console.log('yo');
+//    console.log('Logged: '+this.getFullName());
+//    console.log('Arguments: '+' '+lang1+' '+lang2);
+//    console.log('--------------------------------')
+//}).apply(person, ['en', 'es']);
+//
+////EXAMPLES:
+//
+////FUNCTION BORROWING
+//
+//var person2={
+//    
+//    firstName:'Jane',
+//    lastName:'Doe'
+//    
+//};
+//
+//
+//
+//console.log(person.getFullName.apply(person2));
+//
+//
+//
+////FUNCTION CURRYING
+//
+//function multiply(a,b){
+//    
+//    return a*b;
+//}
+//
+//
+//var multiplyByTwo = multiply.bind(this,2);
+//
+//console.log(multiplyByTwo(5));
+//
+//
+//////////////////////////////////////////////////////
+
 
 
 
