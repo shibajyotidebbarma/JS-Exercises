@@ -420,28 +420,73 @@
 //var greetSpanish = makeGreeting('es');
 //greetEnglish('Balle', 'Challe');
 //greetSpanish('Sen', 'Gen');
+/////////////////////////////////////////////////////////
 
 
 
+//CLOSURES AND CALLBACKS
+
+//
+//function sayHiLater(){
+//    
+//    var greetiing ='Hi';
+//    
+//    setTimeout(function(){ //built-in JS function
+//        
+//        
+//        console.log('greeting');
+//        
+//        
+//    }, 3000); //3000 milisecs setTimeout takes a function param and the time value param
+//    
+//    
+//}
+//
+//
+//
+//sayHiLater();
+//
+//
+//
+////JQuery uses function expressions and first-calss functions
+////$("button").click(function(){
+////                  
+////                  
+////});
+//
+//function tellMeWhenDone(callBack){
+//    
+//    
+//    var a = 1000;
+//    var b = 2000;
+//    
+//    
+//    callBack();
+//    
+//    
+//}
+//
+//
+//tellMeWhenDone(function(){
+//    
+//    
+//    console.log('I am done!');
+//    
+//    
+//});
+//
+//
+//
+//tellMeWhenDone(function(){
+//    
+//    
+//    console.log('All done...');
+//    
+//    
+//});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////////////
 
 
 
